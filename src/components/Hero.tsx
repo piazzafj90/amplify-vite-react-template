@@ -7,9 +7,9 @@ import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import visuallyHidden from '@mui/utils/visuallyHidden';
-import { styled } from '@mui/material/styles';
+//import { styled } from '@mui/material/styles';
 
-const StyledBox = styled('div')(({ theme }) => ({
+{/*const StyledBox = styled('div')(({ theme }) => ({
   alignSelf: 'center',
   width: '100%',
   height: 400,
@@ -32,7 +32,7 @@ const StyledBox = styled('div')(({ theme }) => ({
     outlineColor: 'hsla(220, 20%, 42%, 0.1)',
     borderColor: (theme.vars || theme).palette.grey[700],
   }),
-}));
+}));*/}
 
 export default function Hero() {
   return (
@@ -73,7 +73,7 @@ export default function Hero() {
               fontSize: 'clamp(3rem, 10vw, 3.5rem)',
             }}
           >
-            Our&nbsp;latest&nbsp;
+            Fast&nbsp;Smart&nbsp;
             <Typography
               component="span"
               variant="h1"
@@ -85,7 +85,7 @@ export default function Hero() {
                 }),
               })}
             >
-              products
+              Direct
             </Typography>
           </Typography>
           <Typography
@@ -144,7 +144,7 @@ export default function Hero() {
             .
           </Typography>
         </Stack>
-        <StyledBox id="image" />
+          {/*<StyledBox id="image" />*/}
       </Container>
     </Box>
   );
